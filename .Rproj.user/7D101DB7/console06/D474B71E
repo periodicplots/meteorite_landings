@@ -1,0 +1,36 @@
+]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ [K[siderealyear@EthicsGradient meteorite_landings]$ [K[siderealyear@EthicsGradient meteorite_landings]$ git branch
+[?1h=* [32mdata-curation[m[m
+  master[m[m
+[K[siderealyear@EthicsGradient meteorite_landings]$ ls
+[0m[01;34mdata[0m  meteorite_landings.Rproj  [01;34mplots[0m  README.md  [01;34mscripts[0m
+]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ git branch
+[?1h=  data-curation[m[m
+* [32mmaster[m[m
+[K[?1l>]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ git checkout data-curation
+error: Your local changes to the following files would be overwritten by checkout:
+	scripts/clean_inspect_data.R
+Please commit your changes or stash them before you switch branches.
+Aborting
+]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   scripts/clean_inspect_data.R[m
+
+no changes added to commit
+]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ git add .
+]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ git commit
+hint: Waiting for your editor to close the file... [23;0;0t[?1l>[K[master 89f6ea1] Exploratory plots
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ git branch
+[?1h=  data-curation[m[m
+* [32mmaster[m[m
+[K[?1l>]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ git checkout data-curation
+Switched to branch 'data-curation'
+]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ ls
+[0m[01;34mdata[0m  meteorite_landings.Rproj  [01;34mplots[0m  README.md  [01;34mscripts[0m
+]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ ls data/
+Meteorite_Landings_300_clean.csv  Meteorite_Landings_orignal_clean.csv
+Meteorite_Landings_300.csv        Meteorite_Landings_orignal.csv
+]0;/home/siderealyear/periodicplots/meteorite_landings]0;siderealyear@EthicsGradient:~/periodicplots/meteorite_landings[siderealyear@EthicsGradient meteorite_landings]$ [K[siderealyear@EthicsGradient meteorite_landings]$ htop

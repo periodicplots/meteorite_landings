@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1547075773008.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6DBB6E9",
+    "lastKnownWriteTime" : 1547085606,
+    "last_content_update" : 1547086273954,
+    "path" : "~/periodicplots/meteorite_landings/scripts/plot_finds_by_year.R",
+    "project_path" : "scripts/plot_finds_by_year.R",
+    "properties" : {
+        "cursorPosition" : "21,0",
+        "scrollLine" : "3",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

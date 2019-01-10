@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1547076474370.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1681332873",
+    "id" : "5C7B282F",
+    "lastKnownWriteTime" : 1547082564,
+    "last_content_update" : 1547082564532,
+    "path" : "~/periodicplots/meteorite_landings/scripts/data_manipulation.R",
+    "project_path" : "scripts/data_manipulation.R",
+    "properties" : {
+        "cursorPosition" : "5,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

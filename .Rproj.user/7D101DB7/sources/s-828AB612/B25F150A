@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1546990810776.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B25F150A",
+    "lastKnownWriteTime" : 1547075908,
+    "last_content_update" : 1547075908794,
+    "path" : "~/periodicplots/meteorite_landings/scripts/clean_inspect_data.R",
+    "project_path" : "scripts/clean_inspect_data.R",
+    "properties" : {
+        "cursorPosition" : "8,0",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

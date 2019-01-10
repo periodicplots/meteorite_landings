@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1547083297375.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "24DC2D78",
+    "lastKnownWriteTime" : 7310584035345265765,
+    "last_content_update" : 1547083297375,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "AC9E77BA",
+        "caption" : "Meteorite_Landings_orignal",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Meteorite_Landings_orignal&cache_key=AC9E77BA",
+        "displayedObservations" : 31688,
+        "environment" : "",
+        "object" : "Meteorite_Landings_orignal",
+        "preview" : 0,
+        "totalObservations" : 31688,
+        "variables" : 10
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

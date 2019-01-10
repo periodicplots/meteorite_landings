@@ -1,0 +1,9 @@
+{
+    "path" : "~/periodicplots/meteorite_landings",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

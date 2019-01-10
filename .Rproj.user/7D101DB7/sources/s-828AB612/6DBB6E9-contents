@@ -1,0 +1,54 @@
+ggplot(Meteorite_Landings_orignal, aes(x=year, color=fall)) + 
+  geom_freqpoly(binwidth=1) + 
+  xlim(1800,1900) + 
+#  scale_y_continuous(trans='log10') +
+  labs(
+    title = "Annual meteorite discoveries\n1800 - 1900",
+    x = "Year", 
+    y = "Meteorites",
+    color = NULL,
+    caption = "(Data from NASA Open Data Portal)") +
+  scale_color_manual(
+    labels = c("Fall observed", "Found"), 
+    values = c("#E69F00", "#56B4E9")) +
+  theme(
+    legend.position=c(.2, .85),
+    plot.title = element_text(size=18, hjust = 0.5),
+    axis.title.x = element_text(size=18),
+    axis.title.y = element_text(size=18),
+    axis.text.x = element_text(size=14),
+    axis.text.y = element_text(size=14))
+
+ggplot(Meteorite_Landings_orignal, aes(x=year, color=fall)) + 
+  geom_freqpoly(binwidth=1) + 
+  xlim(1900,2000) + 
+  scale_y_continuous(trans='log10') +
+  labs(
+    title="Annual meteorite discoveries\n1900 - 2000",
+    x ="Year", 
+    y = "Meteorites",
+    color = NULL,
+    caption = "(Data from NASA Open Data Portal)") +
+  scale_color_manual(
+    labels = c("Fall observed", "Found"),
+    values = c("#E69F00", "#56B4E9")) +
+  theme(
+    legend.position=c(.2, .85),
+    plot.title = element_text(size=18, hjust = 0.5),
+    axis.title.x = element_text(size=18),
+    axis.title.y = element_text(size=18),
+    axis.text.x = element_text(size=14),
+    axis.text.y = element_text(size=14))
+
+ggplot(frac_found_by_year %>% filter(fall == "Found"), aes(x=year, y=frac)) + 
+  geom_line() + 
+  xlim(1910,2010) + 
+  #scale_y_continuous(trans='log10') +
+  labs(
+    title="Meteorites discovered by year",
+    x ="Year", 
+    y = "Meteorites",
+    color = NULL,
+    caption = "(Data from NASA Open Data Portal)") +
+  scale_color_manual(labels = c("Fall observed", "Found"), values = c("#E69F00", "#56B4E9")) +
+  theme(legend.position=c(.15, .8))
